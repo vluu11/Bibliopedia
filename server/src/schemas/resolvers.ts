@@ -55,9 +55,9 @@ const resolvers = {
           { new: true, runValidators: true } 
         );
     
-        // console.log('Updated User:', updatedUser);
-        // console.log('User ID from context: ', user._id);
-        // console.log('User data: ', user); 
+        console.log('Updated User:', updatedUser);
+        console.log('User ID from context: ', user._id);
+        console.log('User data: ', user); 
     
         if (!updatedUser) throw new Error('User not found');
     
