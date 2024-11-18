@@ -36,9 +36,9 @@ The application allows users to search for and save books. Below are the steps t
 
 ## Credits
 
-- **Developer**: [Your Name or Team Name]
-- **GitHub Repository**: [Insert Repository Link]
-- **Deployment**: [Insert Deployment Link]
+- **Developer**: Vuong Luu
+- **GitHub Repository**: https://github.com/vluu11/Bibliopedia/blob/main/client/src/pages/SearchBooks.tsx
+- **Deployment**: 
 
 ## License
 
