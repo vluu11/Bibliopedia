@@ -44,7 +44,7 @@ const resolvers = {
     },
     saveBook: async (_: any, { input }: { input: any }, context: Context) => {
       const { user } = context;
-      console.log('User from context:', user); 
+      // console.log('User from context:', user); 
     
       if (!user) throw new AuthenticationError('Not logged in');
     
@@ -55,9 +55,9 @@ const resolvers = {
           { new: true, runValidators: true } 
         );
     
-        console.log('Updated User:', updatedUser);
-        console.log('User ID from context: ', user._id);
-        console.log('User data: ', user); 
+        // console.log('Updated User:', updatedUser);
+        // console.log('User ID from context: ', user._id);
+        // console.log('User data: ', user); 
     
         if (!updatedUser) throw new Error('User not found');
     
